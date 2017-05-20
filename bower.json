@@ -1,0 +1,20 @@
+{
+  "name": "manage-album",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "1312632-1312660"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "boostrap#^3.3.7"
+  }
+}
