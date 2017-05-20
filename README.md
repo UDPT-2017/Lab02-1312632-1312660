@@ -1,10 +1,10 @@
-# BT-UDPT-2 - *Name of your app*
+﻿# BT-UDPT-2 - *Web my chat*
 
-**Name of your app** là một bài tập 2 tại môn UDPT. Ứng dụng cho phép người dùng gửi tin nhắn (email) cho người dùng khác.
+**Web my chat** là một bài tập 2 tại môn UDPT. Ứng dụng cho phép người dùng gửi tin nhắn (email) cho người dùng khác.
 
 Thành viên:
-* [ ] **MSSV1** Tên sinh viên 1 (tên tài khoản github)
-* [ ] **MSSV2** Tên sinh viên 2 (tên tài khoản github)
+* [x] **1312660** Lê Trọng Tuấn (1312660)
+* [x] **1312632** Cao Tiến Trung (CaoTrung)
 
 URL: **URL hosting của bài tập**
 
@@ -16,11 +16,11 @@ Yêu cầu **GIT**
 * [ ] Có sử dụng GIT.
 * [ ] Sử dụng GIT theo Centralized Workflow.
 * [ ] Sử dụng GIT theo Feature Branch Workflow.
-* [ ] Sử dụng GIT theo Gitflow Workflow.
+* [x] Sử dụng GIT theo Gitflow Workflow.
 
 Yêu cầu **bắt buộc**
-* [ ] Website layout theo kiến trúc MVC với các thành phần được tách thành nhiều module theo hướng dẫn. (**MSSV**)
-* [ ] Trang web được thiết kế sẽ bao gồm các trang: home, messages, users, about. (**MSSV**)
+* [x] Website layout theo kiến trúc MVC với các thành phần được tách thành nhiều module theo hướng dẫn. (**1312660**)
+* [x] Trang web được thiết kế sẽ bao gồm các trang: home, messages, users, about. (**1312660**)
 * [ ] Cho phép người dùng biết họ đang ở trang nào (sử dụng breadcrumb, highlight navigation bar,...). (**MSSV**)
 * [ ] Cho phép người dùng đăng ký tài khoản bằng các thông tin: email, password, name, phone.(**MSSV**)
 * [ ] Đăng nhập bằng email và password.(**MSSV**)

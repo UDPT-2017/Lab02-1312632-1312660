@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>{{title}}</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+<div class="container">
+    <!-- Header -->
+    <div class="row" id="header">
+        <!-- Logo -->
+        <div class="col-xs-12 col-sm-4 col-md-4">
+            <img src="image/logo.png" class="img-responsive" />
+        </div>
+    </div>
+    <!-- Navigation -->
+    <div  class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12">
+            <nav class="navbar navbar-default">
+                <div class="navbar-header">
+                    <!-- Bổ sung thêm nút khi tạo menu responsive  -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="/" class="navbar-brand">Manage Messages</a>
+                </div>
+                <div class="navbar-collapse collapse" id="menu">
+                    <ul class="nav navbar-nav">
+                        <li role="presentation" ><a href="/"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+                        <li role="presentation"><a href="/message"><span class="glyphicon glyphicon-envelope"></span> Messages</a></li>
+                        <li role="presentation"><a href="/user"><span class="glyphicon glyphicon-book"></span> User</a></li>
+                        <li role="presentation"><a href="/about"><span class="glyphicon glyphicon-user"></span> About</a></li> 
+                    </ul>
+                </div>
+            </nav>  
+        </div>
+    </div>
+    <div class="clearfix"></div>
+    <!--Content-->
+    <div class="col-xs-12">
+        <div class="row">
+            {{{body}}}
+        </div>
+    </div>
+    <div class="col-xs-12 text-center">
+        <div class="row">
+            <hr>
+            <footer>
+                <p>Design by Group T &amp T</p>
+            </footer>
+        </div>
+    </div>
+</div>
+<script src="components/jquery/dist/jquery.min.js"></script>
+<script src="components/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
