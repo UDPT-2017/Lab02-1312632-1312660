@@ -1,1 +1,33 @@
-Đây là trang messages
+<a href="./register" title="" style="float: right; text-decoration: none"> <h3>Register</h3> </a>
+<h3>Login</h3>
+<hr>
+<div class="row">
+  <div class="col-xs-4" style="margin-left: 420px; text-align: center">
+    {{#if detailMessage.error}}
+    <div class="alert alert-danger">
+      {{detailMessage.error}}
+    </div>
+    {{/if}}   
+  </div>
+</div>
+<form class="form-horizontal" action="" method="post" >
+  <div class="form-group" style="margin-left: 200px">
+    <label class="control-label col-sm-2" for="email">Email *</label>
+    <div class="col-sm-6">
+      <input type="email" class="form-control" maxlength="50" id="email" placeholder="Enter email" required name="email">
+    </div>
+  </div>
+
+  <div class="form-group" style="margin-left: 200px">
+    <label class="control-label col-sm-2" for="pwd">Password *</label>
+    <div class="col-sm-6">
+      <input type="password" class="form-control" maxlength="50" id="pwd" placeholder="Enter password" required name="password">
+    </div>
+  </div>
+
+  <div class="form-group" style="margin-left: 360px">
+    <div class="col-sm-offset-2 col-sm-6">
+      <button type="submit" class="btn btn-primary">Login</button>
+    </div>
+  </div>
+</form>
