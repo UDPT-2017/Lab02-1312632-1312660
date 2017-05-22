@@ -6,7 +6,7 @@ Thành viên:
 * [x] **1312660** Lê Trọng Tuấn (1312660)
 * [x] **1312632** Cao Tiến Trung (CaoTrung)
 
-URL: **URL hosting của bài tập**
+URL: **https://lab2udpt.herokuapp.com/**
 
 ## Yêu cầu
 
